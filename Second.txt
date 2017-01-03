@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Pandara's Box</h1>
+<p>Oh look, a website with 2 pages!!</p>
+</body>
+</html>
