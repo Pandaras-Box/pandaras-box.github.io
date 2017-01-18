@@ -1,66 +1,127 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="Img/pb_ico.ico">
 
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title>Blog Template</title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1404.47">
-  <style type="text/css">
-    body {background-color: #d3d3d9}
-    p.p2 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 20.0px; font: 19.0px Helvetica Neue ; color: #000000; -webkit-text-stroke: #000000}
-    p.p3 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 17.0px; font: 16.0px Helvetica Neue ; color: #0000ee; -webkit-text-stroke: #0000ee}
-    p.p4 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 14.0px; font: 12.0px Helvetica Neue ; color: #000000; -webkit-text-stroke: #000000; min-height: 14.0px}
-    span.s1 {font-kerning: none}
-    span.s2 {text-decoration: underline ; font-kerning: none}
-  </style>
-</head>
+    <title>Pandara's Blog Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	
+	 <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+     <!-- Custom styles for this template -->
+    <link href="css/theme.css" rel="stylesheet">
+
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
 <body>
-<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; line-height: 28.0px; font: 24.0px Helvetica Neue ; color: #000000; -webkit-text-stroke: #000000">
-<span class="s1"><b>24/06/16, a very unexpected series of events… (Europe & the Romeros)</b></span></h1>
 
-<p class="p4"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1">I&#39m still not quite sure that last Friday really happened as I remember. Be honest with me for a second,
+<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">PANDARA'S BOX</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Home</a></li>
+			<li class="dropdown">
+              <a href="http://pandarasbox.com/DevBlog" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dev Blog <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Most Recent</a></li>
+                <li><a href="#">Bamboo Garden (AKA Archives)</a></li>
+              </ul>
+            </li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="http://pandarasbox.com/DevBlog" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Games<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Slimebow</a></li>
+                <li><a href="#">Leitmotif</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+<div class="container theme-showcase" role="main">
+
+<div class="jumbotron">
+<h2>24/06/16, a very unexpected series of events… (Europe & the Romeros)</h2>
+<p></p> 
+
+<p ><small >I&#39m still not quite sure that last Friday really happened as I remember. Be honest with me for a second,
 did it? The plan this week was to run some bios of our core team, and then maybe end with a joke or two about what a pointless exercise
 the EU Referendum was, and, while I&#39ll still do the former, the latter section this week of the blog will be on the lengthier side again!
-So, once more unto the breach. </span><p>
+So, once more unto the breach. </small><p>
 
-<p class="p2"><span class="s1">So what exactly does the makeup of the Pandara&#39s Box team look like for #Tranzfuser, you might ask (or not, which
+<p ><small >So what exactly does the makeup of the Pandara&#39s Box team look like for #Tranzfuser, you might ask (or not, which
 is cool too). Well, there are five of us now, having grown solidly for the project from fluctuating between 2-4 at various points in the past. The
 obvious one first would be myself, Conall, and I, like a #TF2 pro, am currently wearing multiple hats. As one of the three co-founders of the studio,
 I&#39ve taken on the role of team lead for the project, am performing design ideation for combat, am some approximation of a community manager and am also
 weighing in on developmental duties. Outside of the project, I&#39ve just wrapped up an MEng Computer #GamesDev degree at <a href="https://Twitter.com/QueensUBelfast">@QueensUBelfast</a>, 
-and without boring you much more, have generally been found involving myself in more than too many clubs (and/or societies) in the past few years at the university.</span><p>
+and without boring you much more, have generally been found involving myself in more than too many clubs (and/or societies) in the past few years at the university.</small><p>
 
-<p class="p2"><span class="s1">Giving the appearance of begrudgingly carrying the entire team on his back with programming know-how is David, the technical
+<p ><small >Giving the appearance of begrudgingly carrying the entire team on his back with programming know-how is David, the technical
 lead for the project as well as sanity checker on these blogs and incredibly smart and handsome and (okay, Conall, I&#39ll stop editing this section now)!
 (Editor&#39s Note: I&#39m still the hero you all need. Saving you from the villainy of Sleepy Conall&#39s half-formed thoughts) Graduating alongside myself next week
 with the same type of degree from #QUB, as well as being another of the team&#39s founders, David has a wonderful knack of making us fully aware that if he could
 type on four keyboards at once he&#39d have this all sewn up with just an artist supporting him, yet we&#39re not mad because he&#39s tricked us into learning new
-things. He&#39s a great asset to the team and a strong advocate of teaching us men to fish (mainly so he can get a free fish a day). </span><p>
+things. He&#39s a great asset to the team and a strong advocate of teaching us men to fish (mainly so he can get a free fish a day). </small><p>
 
-<p class="p2"><span class="s1">Adding on to the dos compadres to form the three amigos(/founders) is Dicky, who is very much our creative jack-of-all-trades.
+<p ><small >Adding on to the dos compadres to form the three amigos(/founders) is Dicky, who is very much our creative jack-of-all-trades.
 A graduate of Computer Science at QUB, our resident Hong Kong Chinese/Northern Irish (&lsquo;#ChinIrish&rsquo; - Dicky) panda-lover handled sprite art duties on some of
 our previous projects (including designing the hero of our well-received mobile title, Slimebow (available on iOS and Android devices now! (#ShamelessPlug))
 and performing the role of maestro of music in said projects. With our main artist currently working on concept art, Dicky is on coding and sound asset
 creation duties for #ProjectLeitmotif. Side note: his family genuinely run one of the nicest restaurants I&#39ve had the fortune of going to. It&#39s called Dragon
 Garden and is situated in Cookstown, Tyrone, so if you ever find yourself in the area it&#39s well worth taking the time to stop in and enjoy (#ShamelessPlug 2:
-Delicious Food Boogaloo). </span><p>
+Delicious Food Boogaloo). </small><p>
 
-<p class="p2"><span class="s1">The final graduate from <a href="https://Twitter.com/SEEECSatQueens">@SEEECSatQueens</a> (so many letters!) on our team is Ben, joining our team for the first time for
+<p ><small >The final graduate from <a href="https://Twitter.com/SEEECSatQueens">@SEEECSatQueens</a> (so many letters!) on our team is Ben, joining our team for the first time for
 #Tranzfuser. He had been working (and still is part-time) for GAME the past few months and has provided many great anecdotes on the trials of explaining new
 titles to the inexperienced buyer. He is currently focused on UI layout design and implementation for the project as well as assisting with other coding duties
-as required.</span><p>
+as required.</small><p>
 
-<p class="p2"><span class="s1">TL;DR: We&#39re funded to make games, E3&#39s exciting and ending soon.</span><p>
+<p ><small >TL;DR: We&#39re funded to make games, E3&#39s exciting and ending soon.</small><p>
 
-<p class="p2"><span class="s1">- Conall (<a href="https://Twitter.com/Redmagpie93">@Redmagpie93</a>)</span><p>
+<p ><small >TL;DR: &lsquo;leitmotif&rsquo; </small><p>
 
-<p class="p3"><span class="s2"><a href="http://pandarasbox.com/BambooGarden">The Bamboo Garden (Blog Archive)</a></span></p>
+<p ><small >- Conall (<a href="https://Twitter.com/Redmagpie93">@Redmagpie93</a>)</small><p>
+</div>
+</div>
 
-<p class="p3"><span class="s2"><a href="http://pandarasbox.com">Home</a></span></p>
-<p class="p4"><span class="s1"></span><br></p>
+ <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
 </body>
 </html>
