@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="Img/pb_ico.ico">
+
+    <title>Pandara's Blog</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="http://pandarasbox.com/css/bootstrap.min.css" rel="stylesheet">
+	
+	 <link href="http://pandarasbox.com/css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="http://pandarasbox.com/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+     <!-- Custom styles for this template -->
+    <link href="http://pandarasbox.com/css/theme.css" rel="stylesheet">
+
+    <script src="http://pandarasbox.com/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://pandarasbox.com/">PANDARA'S BOX</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://pandarasbox.com/">Home</a></li>
+			<li class="dropdown">
+              <a href="http://pandarasbox.com/DevBlog" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dev Blog <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Most Recent</a></li>
+                <li><a href="http://pandarasbox.com/BambooGarden">Bamboo Garden (AKA Archives)</a></li>
+              </ul>
+            </li>
+            <li><a href="http://pandarasbox.com/about">About</a></li>
+            <li><a href="http://pandarasbox.com/about">Contact</a></li>
+            <li class="dropdown">
+              <a href="http://pandarasbox.com/DevBlog" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Games<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Slimebow</a></li>
+                <li><a href="#">Leitmotif</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+<div class="container theme-showcase" role="main">
+
+<div class="jumbotron">
+<h2>&#34;Stay on target!&#34; - Gold 5, Star Wars (aka #Tranzfuser mid-project ramblings)</h2>
+<p></p>
+
+<p><small></small></p>
+
+<p><small>You’ll be pleased (we hope you will be, at least, but maybe you’re just here for the excellently 
+written <span class="text-warning">(E.N.: and edited!)</span> blog content) to hear that this week we’ll be talking in some greater depth about #ProjectLeitmotif.
+ We’re approaching the halfway point of the project, with this being our 5th week. As a result of this, we have a mid-project review 
+ to deliver to the lovely folks over <a href="https://Twitter.com/UKGamesTalent">@UKGamesTalent</a>. So, what better time to catch everyone else up to speed than the week that we 
+ have to take stock of our progress anyways? We at Pandara’s have always been advocates of that whole two stones one bird stuff. 
+ (A quick aside however - David, you missed some blatant proofing errors last week. 50 points from Ravenclaw! <span class="text-warning">(E.N.: And you put 
+ them there in the first place, so twice as many points from Gryffindor.)</span>) </small></p> 
+ 
+ <p><small>As a brief overview of where the project is at, we’ll begin by looking at the core elements we’ve been working on.
+ In the design corner, we have locked down the world building (general narrativey stuff), the broad strokes of the core combat loop
+ (the nitty gritty of how you hit people), the combat menus (all those shiny buttons that let you hit people), the combat UI 
+ (those beautiful pictures that let you see what’s going on), stats systems (the stuff that lets you know just how hard you’re 
+ smacking that monster in the face), menu navigation, concepts designs for player characters, enemies and some fun combat settings, 
+ and exactly how the rhythm handling logic works. At this point, our design focus is on our continued experimentation with a variety 
+ of control schemes and combat implementations.</small></p>
+ 
+ <p><small>On the artistic front, we have Ciaran working away on as wide of a variety of concepts as he can for the aforementioned player,
+ enemy and setting designs. The main source of inspiration for these designs comes from a blend of the hand-drawn look of the likes of 
+ Okami or Muramasa: The Demon Blade mixed with the styles of Ancient Graeco-Roman artwork (such as those present on their pottery) and 
+ a smattering of influences from the Thai and Cambodian backdrop of his current travels (from which he returns from this week!). 
+ Elsewhere in the realm of asset creation, Dicky has been devoting some of his time to creating the audio necessary to go with our rhythm logic.</small></p>
+ 
+ <p><small>Speaking of logic, much of our time over the past few weeks has been spent on the development and implementation of the engine itself. 
+ Our major focus has been on getting a flexible system built to cater to our needs for a robustly extensible rhythm creation and matching system 
+ to tie in with the musical aspects of our combat system. This is something that David, our Development Lead <span class="text-warning">(E.N. And editor, don’t forget the 
+ &#34;and editor&#34;)</span> has taken point on, and now has in great shape. Surrounding that, we have the structure of the backend for our stats 
+ system implemented, the core combat &lsquo;phases&rsquo; functional (with the combat loop in each phase now entrenched in the experimentation stage), 
+ the external navigation menu (for getting around the parts of the system) ready to go and our intuitive in-combat menu system nearly ready. </small></p>
+ 
+<p><small> Across the first 4 weeks we carried out 3 Sprints. We started with an initial pair of one-week long sprints and followed that with a two-week sprint,
+ which lead to the start of this week. By the end of the first sprint, we had narrowed our initial concept from a combat system and an exploratory 
+ side-scrolling platforming wrapper and a functioning overworld design, to simply cover the prototyping of the combat system itself (what’s the antonym of scope-creep?).
+ To go into more detail, the first sprint covered predominantly conceptual work, with the stats systems, art assets, battle ui and defensive phase 
+ of combat all mapped out. After that, we spent the second sprint developing said stats system, getting a functional build of the pattern creation 
+ and rhythm matching logic ready, recording some placeholder sound assets and functionally building the battle UI itself. Finally, in the last, 
+ most recent sprint, we had a rough wrapper menu system designed and built, the rhythm logic system refined and extended to a point we were happy 
+ with and the battle UI developed and ready to be merged in with said rhythm system.</small></p>
+ 
+ <p><small>Across the rest of the programme, there are a number of key milestones we intend to achieve. Initially, we plan on integrating
+ all of our current system components, which we hope to have completed by the beginning of week 6. Following that, we intend to continue 
+ to experiment with the core combat phases (Attacking, Defending and using Abilities), something we aim to have locked down by week 7. 
+ At the same time as this, we intend to begin in earnest the integration of the art assets Ciaran has been working on, an ongoing iterative 
+ process of which which we aim to have the bulk of completed going into week 8. While this is going on, some of the team will be focused on 
+ implementing and balancing the various combat participants and abilities. Our intention is then to spend the final two weeks minimum simply 
+continuing to refine and polish the prototype ahead of the final build in preparation for prime time. </small></p>
+
+<p><small>I think the one key thing that should be highlighted from this whole process to date is how we&#39ve had to react to planning vs. 
+reality when it comes to scope. Despite going into the project with (in our minds) a significantly reduced scope compared to our 
+plans for our overall project to cover the 10 weeks, it has rapidly evident that our key hook, the rhythmic combat system, was more
+than enough to work on over the time period for #Tranzfuser. Across the whole prototype it has become clear that shaving off the 
+excess to focus on making the core aspects as good as we are capable of was not only a necessity to develop them, but also hugely 
+beneficial to the quality of the result. This might sound simple, and we might all be aware of it, but reminding ourselves of it regularly can only be a good thing. </small></p>
+
+<p><small>The last section ties nicely in with how I’m closing out this week’s blog, as no week during the project has highlighted 
+the need to scale and plan for issues appropriately as much as this. Having had a flu-like plague traverse the office (having been kindly 
+delivered by <a href="https://Twitter.com/RedSpearGames">@RedSpearGames</a> miscreant <a href="https://Twitter.com/Ghostlyy">@Ghostlyy</a>), we had first Dicky, then Ben and finally David briefly out of sorts in week 4. 
+Fortunately, since their fingers weren’t affected, they were still able to progress with their work <span class="text-warning">(E.N.: You slavemaster.)</span>. 
+This week however, we had the wonderful situation crop up wherein we were recording footage for our review and I was unable to 
+physically speak in any understandable manner, with the symptoms having finally caught up with me <span class="text-warning">(E.N.: Karma’s so much fun)</span>. 
+To really showcase just how lucky I am as a person, I hit the worst part of it during my usual timeframe for writing these blogs! 
+This, combined with myself and David graduating on the Wednesday (congrats also to the <a href="https://Twitter.com/RedSpearGames">@RedSpearGames</a> team for joining us with our 
+MEng Computer Games Dev degrees), meant that, had we not already covered most of the planning, scripting and editing for the review 
+well ahead of time, we would have been just a teensie little bit extremely worried about having it all put together on time. 
+As it is, we simply had to record the last segment once my voice returned, and to then slot it into the video. Sadly, this did mean 
+we did end up having to knock publishing this blog back by a couple of days, but regular service will be resumed by next week of course.</small></p>
+
+<p><small>As always, thanks for reading, and, hopefully, you’ll find the content interesting once more.
+ Although, if you didn’t… here’s week 2 of our “Pandas in Motion” content (this is by no means intended as a distraction…)
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/RHOo5ps2xqE" frameborder="0" allowfullscreen></iframe></small></p>
+
+<p><small>TL;DR: Halfway there (living on a prayer), work work work, the plague, graduation, excuses</small></p>
+ 
+<p ><small >- Conall (<a href="https://Twitter.com/Redmagpie93">@Redmagpie93</a>)</small></p>
+
+
+</div>
+</div>
+
+ <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="http://pandarasbox.com/js/bootstrap.min.js"></script>
+    <script src="http://pandarasbox.com/js/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="http://pandarasbox.com/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
