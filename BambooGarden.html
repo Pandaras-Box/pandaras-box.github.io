@@ -44,26 +44,8 @@
           </button>
           <a class="navbar-brand" href="http://pandarasbox.com/">PANDARA'S BOX</a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="http://pandarasbox.com/">Home</a></li>
-			<li class="dropdown">
-              <a href="http://pandarasbox.com/DevBlog" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dev Blog <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Most Recent</a></li>
-                <li><a href="http://pandarasbox.com/BambooGarden">Bamboo Garden (AKA Archives)</a></li>
-              </ul>
-            </li>
-            <li><a href="http://pandarasbox.com/about">About</a></li>
-            <li><a href="http://pandarasbox.com/about">Contact</a></li>
-            <li class="dropdown">
-              <a href="http://pandarasbox.com/DevBlog" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Games<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="http://pandarasbox.com/Games_Slimebow">Slimebow</a></li>
-                <li><a href="http://pandarasbox.com/Games_Leitmotif">Leitmotif</a></li>
-              </ul>
-            </li>
-          </ul>
+         <div id="navbar">
+         
         </div><!--/.nav-collapse -->
       </div>
     </nav>
@@ -136,7 +118,9 @@ so for now the recent blog and the first 5 are complete, apologies for the incon
 
 </div>
 </div>
-
+<script> 
+  $("#navbar").load("navbar.html"); 
+</script>
  <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

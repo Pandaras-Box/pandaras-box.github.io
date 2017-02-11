@@ -9,7 +9,9 @@
     <meta name="author" content="">
     <link rel="icon" href="Img/pb_ico.ico">
 
-    <title>Pandara's Blog</title>
+   <title>Pandara's Box</title>
+	
+	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
 
     <!-- Bootstrap core CSS -->
     <link href="http://pandarasbox.com/css/bootstrap.min.css" rel="stylesheet">
@@ -44,26 +46,8 @@
           </button>
           <a class="navbar-brand" href="http://pandarasbox.com/">PANDARA'S BOX</a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="http://pandarasbox.com/">Home</a></li>
-			<li class="dropdown">
-              <a href="http://pandarasbox.com/DevBlog" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dev Blog <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Most Recent</a></li>
-                <li><a href="http://pandarasbox.com/BambooGarden">Bamboo Garden (AKA Archives)</a></li>
-              </ul>
-            </li>
-            <li><a href="http://pandarasbox.com/about">About</a></li>
-            <li><a href="http://pandarasbox.com/about">Contact</a></li>
-            <li class="dropdown">
-              <a href="http://pandarasbox.com/DevBlog" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Games<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Slimebow</a></li>
-                <li><a href="#">Leitmotif</a></li>
-              </ul>
-            </li>
-          </ul>
+          <div id="navbar">
+         
         </div><!--/.nav-collapse -->
       </div>
     </nav>
@@ -120,7 +104,9 @@ Video game movies getting better? </small><p>
 <p ><small >- Conall (<a href="https://Twitter.com/Redmagpie93">@Redmagpie93</a>)</small><p>
 </div>
 </div>
-
+<script> 
+  $("#navbar").load("navbar.html"); 
+</script>
  <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
