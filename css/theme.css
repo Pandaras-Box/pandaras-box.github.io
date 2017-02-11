@@ -23,5 +23,5 @@ iframe{
 	
 	br {
   margin:2.5em 0;/* FF for instance */
-  line-height:10em;/* chrome for instance */
+  line-height:20em;/* chrome for instance */
 }
