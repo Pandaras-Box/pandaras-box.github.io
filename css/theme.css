@@ -21,7 +21,4 @@ iframe{
 		max-width: 100% !important;
 	}
 	
-	br {
-  margin:5em 0;/* FF for instance */
-  line-height:10em;/* chrome for instance */
-}
+
