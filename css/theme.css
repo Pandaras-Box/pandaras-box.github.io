@@ -20,3 +20,8 @@ body {
 iframe{
 		max-width: 100% !important;
 	}
+	
+	br {
+  margin:2.5em 0;/* FF for instance */
+  line-height:5em;/* chrome for instance */
+}
